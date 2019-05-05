@@ -1,0 +1,17 @@
+.first__button,
+.second__button {
+  border-style: none;
+  background-color: purple;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+  background-color: lightGray;
+  color: #000;
+  cursor: default;
+}

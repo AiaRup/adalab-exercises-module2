@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page__smiley {
+  margin: 0;
+  font-size: 70px;
+}
+
+.page__content {
+  position: relative;
+}
+
+.page__form {
+  position: absolute;
+  bottom: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__label {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#mood {
+  margin-right: 20px;
+  padding: 10px 20px 10px 5px;
+  width: 85px;
+  border-radius: 5px;
+}
+
+.form__button {
+  background: blue;
+  color: #fff;
+  border-radius: 5px;
+  width: 85px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: capitalize;
+  border: none;
+}
+
+.even {
+  background-color: #ffcc00;
+}
+
+.odd {
+  background-color: #ff9900;
+}

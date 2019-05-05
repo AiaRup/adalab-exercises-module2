@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1></h1>
+    <!-- De momento, colocaremos la etiqueta script justo antes de cerrar la etiqueta body -->
+    <script type="text/javascript">
+      // Aquí iría el código JavaScript
+      const headerHeight = 72;
+      const subHeaderHeight = 24;
+      const screenHeight = 620;
+      const remainingSpace = screenHeight - headerHeight - subHeaderHeight;
+      const sections = 4;
+      const sectionSize = remainingSpace / sections;
+
+      let titleElement = document.querySelector('.title');
+
+      // Cambiamos el contenido del elemento, indicando que sea igual al actual, más una nueva palabra añadida
+      titleElement.innerHTML = titleElement.innerHTML + ', adalaber';
+
+      const listElement = document.querySelector('.list');
+
+      const content = '<li><a href="#">Home</a></li><li><a href="#">Contact</a></li>';
+
+      listElement.innerHTML = content;
+    </script>
+    <!-- external js file -->
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

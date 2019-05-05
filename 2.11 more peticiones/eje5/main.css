@@ -1,0 +1,9 @@
+.claro {
+  background-color: lightblue;
+  color: blue;
+}
+
+.oscuro {
+  background-color: blue;
+  color: lightblue;
+}
